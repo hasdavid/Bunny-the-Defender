@@ -1,6 +1,6 @@
 # Bunny the Defender
 
-One of my first Python programs, a simple game written in Python 3. The player takes the role of a warrior bunny, who has to defend his castle against a horde of badgers. The goal of the project was to play with and explore Python, it's module PyGame and object-oriented programming.
+One of my first Python programs, a simple game written in Python 3. The player takes the role of a warrior bunny, who has to defend his castle against a horde of badgers. The goal of the project was to play with and explore Python, its module PyGame and object-oriented programming.
 
 ## Screenshot
 
