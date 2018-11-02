@@ -21,7 +21,7 @@ The code is not as beautiful as it could be. I am aware that there are some inco
 
 Also I noticed there is a much better representation of such entity already implemented in PyGame - it is called Sprite. I may refactor the code using this module later.
 
-Another thing would be to remove the dependency on the "point" library. At first I thought that would bring some functionality which PyGame was missing, but it turned out to be more of a nuisance and made the code more unclear.
+Another thing would be to remove the dependency on the "point" library. At first I thought that the library would bring some functionality which PyGame was missing, but it turned out to be more of a nuisance and made the code more unclear.
 
 Please, feel free to share your own remarks. I am still new to object-oriented programming and will welcome any advice.
 
