@@ -6,7 +6,7 @@
 # PROJECT:    Bunny the Defender
 # AUTHOR:     David Has
 # START DATE: 2 Sep 2018
-# VERSION:    0.6.1
+# VERSION:    0.6.0
 #
 # DESCRIPTION:
 # 	Game, where a bunny defends castles againgst an army of badgers.
@@ -25,7 +25,6 @@
 # 0.4.4   05Sep18 DH      Reverting to original movement method.
 # 0.5.0   05Sep18 DH      Implementing arrows.
 # 0.6.0   02Nov18 DH      Added badgers, sounds, battle system and statistics.
-# 0.6.1   02Nov18 DH      Adjusted the badger timer.
 #
 ###
 
@@ -439,9 +438,7 @@ class Game():
 		if self.nextBadgerTimer == self.badgerBaseTime:
 			self.badgerList.append(Badger(point.Point(self.screen.get_width(), random.randint(50, 430))))
 			self.nextBadgerTimer = 0
-			if self.badgerBaseTime >= 60:
-				self.badgerBaseTime -= 2
-			elif self.badgerBaseTime >= 20:
+			if self.badgerBaseTime >= 30:
 				self.badgerBaseTime -= 1
 
 	def checkEndGame(self):
