@@ -17,7 +17,7 @@ The bunny moves with keys `w`, `a`, `s`, `d` and turns by following the mouse cu
 
 ## Possible future updates
 
-I might refactor the code using the PyGame's module _Sprite_. I also plan to remove the _point_ library dependency, since it did not provide much useful functionality and instead just made the code look messier.
+I might refactor the code using the PyGame's module _Sprite_. I also plan to remove the _point_ library dependency, since it did not provide much useful functionality and instead just made the code messier.
 
 ## Credit
 
