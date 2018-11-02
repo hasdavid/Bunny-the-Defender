@@ -20,7 +20,7 @@
 #                         main()
 # 0.4.0   04Sep18 DH      Another try to reimplement using objective programming
 # 0.4.1   04Sep18 DH      Making the bunny respond to keystrokes.
-# 0.4.2   05Sep18 DH      Making the bunny turn wih mouse.
+# 0.4.2   05Sep18 DH      Making the bunny turn with mouse.
 # 0.4.3   05Sep18 DH      Optimizing bunny's movement method using a bitmap.
 # 0.4.4   05Sep18 DH      Reverting to original movement method.
 # 0.5.0   05Sep18 DH      Implementing arrows.
